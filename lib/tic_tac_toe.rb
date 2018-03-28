@@ -65,9 +65,8 @@ WIN_COMBINATIONS = [
     puts "Please enter 1-9:"
     plays = gets.strip
     index = input_to_index(plays)
-      if valid_move?(index)
+    if valid_move?(index)
         current_player
-      end
         move(index, token)
         display_board
     else
