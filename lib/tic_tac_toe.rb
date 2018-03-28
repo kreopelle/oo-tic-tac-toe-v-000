@@ -120,6 +120,4 @@ WIN_COMBINATIONS = [
     end
   end
 
-test 
-
 end
