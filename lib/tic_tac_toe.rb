@@ -70,7 +70,7 @@ WIN_COMBINATIONS = [
         move(index, token)
         display_board
     else
-      turn
+        turn
     end
   end
 
