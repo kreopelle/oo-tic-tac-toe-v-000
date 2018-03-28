@@ -67,7 +67,7 @@ WIN_COMBINATIONS = [
     index = input_to_index(user_input)
     if valid_move?(index)
         current_player
-        move(index, token)
+        move
         display_board
     else
         turn
